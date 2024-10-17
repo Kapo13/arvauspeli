@@ -14,7 +14,6 @@ public class App {
     while  (!input.equals(oikeaNimi));
     {
     System.out.println("Oikein! Oikea nimi on " + oikeaNimi);
-    
     }
 
 
