@@ -7,11 +7,11 @@ public class App {
     String input;
 
 
-
+    do{
     System.out.println("Arvaa nimi?");
     input = in.nextLine();
-
-    if (input.equals(oikeaNimi))
+    }
+    while  (!input.equals(oikeaNimi));
     {
     System.out.println("Oikein! Oikea nimi on " + oikeaNimi);
     
